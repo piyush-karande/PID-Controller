@@ -39,7 +39,9 @@ The current initialization of PID in the main file is set to the values that wer
 best while running the simulatior on my laptop. The values are set at:
 
 **Kp**: 0.178899 
+
 **Kd**: 1.57257 
+
 **Ki**: 0.0022
 
 With the above numbers the twiddle algorithms stops tuning the parameters after 2-3 iterations. The stopping 
