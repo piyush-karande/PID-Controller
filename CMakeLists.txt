@@ -23,4 +23,7 @@ endif(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
 
 add_executable(pid ${sources})
 
-target_link_libraries(pid z ssl uv uWS)
+if(NOT ${CMAKE_SYSTEM_NAME} MATCHES "Windows")
+    target_link_libraries(pid z ssl uv uWS)
+endif(NOT ${CMAKE_SYSTEM_NAME} MATCHES "Windows")
+
