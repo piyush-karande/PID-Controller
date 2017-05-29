@@ -49,7 +49,7 @@ condition is set at average squared cte going below 0.1.
 
 The output from the Visual studio compilation, including the pid.exe file is in the release folder. 
 
-Note: Changing the settings of the simulator was observed to produce different results. Therefore, all the testing 
+**Note**: Changing the settings of the simulator was observed to produce different results. Therefore, all the testing 
 and tuning was carried out at 640x480 screen resolution with graphics quality set to Fantastic. The above values 
 work best for those setting on my machine and the car runs indefinitely around the track at 30-40 mph.
 
